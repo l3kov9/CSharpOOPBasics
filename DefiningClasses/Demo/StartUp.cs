@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Demo;
 
 public class StartUp
 {
@@ -23,6 +24,10 @@ public class StartUp
         team.players.Add(firstPlayer);
 
         Console.WriteLine(team.players.Where(x=>x.age==28).FirstOrDefault().team.name);
+
+        var dice=new Dice(10);
+
+        Console.WriteLine(dice.Roll());
     }
 }
 
