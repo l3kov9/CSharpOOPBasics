@@ -18,6 +18,7 @@
 
         public void Eat(Food food)
         {
+            this.foodEaten += food.quantity;
         }
     }
 }

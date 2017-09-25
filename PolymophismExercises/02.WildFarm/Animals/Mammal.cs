@@ -4,8 +4,8 @@
     {
         private string livingRegion;
 
-        public Mammal(string animalName, string animalType, double animalWeight, string livingRegion) 
-            : base(animalName, animalType, animalWeight)
+        public Mammal(string name, string type, double wight, string livingRegion) 
+            : base(name, type, wight)
         {
             this.livingRegion = livingRegion;
         }

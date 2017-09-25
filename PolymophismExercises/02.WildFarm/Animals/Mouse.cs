@@ -4,8 +4,8 @@ namespace _02.WildFarm
 {
     public class Mouse : Mammal
     {
-        public Mouse(string animalName, string animalType, double animalWeight, string livingRegion) 
-            : base(animalName, animalType, animalWeight, livingRegion)
+        public Mouse(string name, string type, double wight, string livingRegion) 
+            : base(name, type, wight, livingRegion)
         {
         }
 

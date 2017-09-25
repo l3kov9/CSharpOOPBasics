@@ -10,8 +10,8 @@ namespace _02.WildFarm
     {
         private string breed;
 
-        public Cat(string animalName, string animalType, double animalWeight,string livingRegion,string breed) 
-            : base(animalName, animalType, animalWeight, livingRegion)
+        public Cat(string name, string type, double wight,string livingRegion,string breed) 
+            : base(name, type, wight, livingRegion)
         {
             this.breed = breed;
         }

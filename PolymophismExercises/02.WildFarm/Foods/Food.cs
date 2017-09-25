@@ -2,7 +2,7 @@
 {
     public abstract class Food
     {
-        private int quantity;
+        public int quantity { get; set; }
 
         public Food(int quantity)
         {
